@@ -1,9 +1,12 @@
 # main links
 main:
+  - title: "Home"
+    url: https://jason-017.github.io 
+
   - title: "About"
     url: /about/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Categories"
+    url: /categories/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
