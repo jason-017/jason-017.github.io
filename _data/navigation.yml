@@ -5,10 +5,12 @@ main:
 
   - title: "About"
     url: /about/
+
   - title: "Categories"
     url: /categories/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+
+  - title: "Github"
+    url: /categories/github
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
