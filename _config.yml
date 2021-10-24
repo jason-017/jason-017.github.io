@@ -104,7 +104,7 @@ author:
   name             : "jason"
   avatar           : "/assets/image.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**기록하는 공간!**"
-  location         : "Republic of Korea"
+  location         : "South Korea"
   email            : 
   links:
     - label: "Email"
