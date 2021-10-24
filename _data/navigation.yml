@@ -9,6 +9,9 @@ main:
   - title: "Categories"
     url: /categories/
 
+  - title: "Monthly"
+    url: /monthly/
+
 #  - title: "Github"
 #    url: /categories/github #카테고리에 종속된 폴더라 그런지 카테고리 들어가면 메뉴에 안나온다...
 #  - title: "Tags"
