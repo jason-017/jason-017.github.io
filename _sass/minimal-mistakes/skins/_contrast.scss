@@ -8,8 +8,9 @@ $muted-text-color: $text-color !default;
 $primary-color: #ff0000 !default;
 $border-color: mix(#fff, $text-color, 75%) !default;
 $footer-background-color: #000 !default;
-$link-color: #ff0000 !default;
-// $link-color: #0000ff !default;
+// $link-color: #ff0000 !default;
+$link-color: #0000ff !default;
+$title-color: #ff0000 !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
@@ -41,6 +42,10 @@ $base0f: #b18a3d !default;
   .notice--danger {
     color: $text-color;
   }
+}
+
+.page__title{
+  color: $title-color
 }
 
 .page__footer {
