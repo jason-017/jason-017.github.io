@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "jason의 정리 공간"
+title                    : "Hello, jason!"
 title_separator          : "-"
 subtitle                 : "Version 1.0" # site tagline that appears below site title in masthead
 name                     : "jason"
-description              : "무엇이든 배운 것을 정리하는 공"
+description              : ""
 url                      : "https://jason-017.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "jason의 IT 공부"# overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Hello, jason!<br>since 2021"# overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -101,9 +101,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "jason-017"
+  name             : "jason"
   avatar           : "/assets/image.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**관심있는 것들을 공부하고 기록하는 것이 자산!**"
+  bio              : "**기록하는 공간!**"
   location         : "Republic of Korea"
   email            : 
   links:
