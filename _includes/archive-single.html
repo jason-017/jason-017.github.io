@@ -25,11 +25,13 @@
       {% endif %}
     </h2>
     {% if post.categories[0] != null %}
-	<p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> {{ post.date | date: "%m/%d/%Y" }} &nbsp; <i class="far fa-folder-open"></i> {{ post.categories }}</p>
+      <p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> {{ post.date | date: "%m/%d/%Y" }} &nbsp; <i class="far fa-folder-open"></i> {{ post.categories }}</p>
     {% else %}
-	<p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> {{ post.date | date: "%m/%d/%Y" }}
+      <p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> {{ post.date | date: "%m/%d/%Y" }}
     {% endif %}
-    {% include page__meta.html type=include.type %}
+    {% if post.read_time %}
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>
