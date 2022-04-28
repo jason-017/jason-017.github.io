@@ -1,6 +1,6 @@
 ---
-title: "[python] Pandas DataFrame 기초1"
-excerpt: " "
+title: "[python] Pandas DataFrame 기초 정리"
+excerpt: "data preprocessing에 도움이 될만한 Pandas DataFrame 기초 내용"
 categories:
  - python
 tags:
