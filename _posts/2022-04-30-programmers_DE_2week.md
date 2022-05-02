@@ -46,11 +46,11 @@ tags:
 
 ![data infra](/assets/de2/datainfra.png)
 
-### 3. Data Infra 간단한 빌딩
+### 3. Data Infra 간단하게 구축하기
 - 데이터 웨어하우스는 RedShift를 사용할 예정
   - RedShift는 AWS 데이터 웨어하우스이며, 최대 1.6PB의 데이터까지 scalable(확장 가능한) postgreSQL 엔진이다.
-  - 용량이 작거나 개인 프로젝트 용도로 RDBMS인 MySQL를 사용해도 좋고, redshift trial 버전을 사용해도 좋다.
-  - 본질은 production DB와 분리된 공간에서 데이터 분석을 위해 편하게 다룰 수 있는 저장소가 필요하다는 것이다. Scalable한 저장소가 필요한 이유도 기업에서 발생하는 데이터가 굉장히 많기 때문에 개인 프로젝트에서는 사실 scalable할 이유도 딱히 없다.
+  - 용량이 작거나 개인 프로젝트 용도로 RDBMS인 MySQL를 사용해도 좋고, RedShift trial 버전을 사용해도 좋다.
+  - 본질은 production DB와 분리된 공간에서 데이터 분석을 위해 편하게 다룰 수 있는 저장소가 필요하다는 것이다. Scalable한 저장소가 필요한 이유도 기업에서 발생하는 데이터가 굉장히 방대하기 때문이라, 개인 프로젝트에서는 사실 scalable할 이유도 딱히 없다.
   - 데이터 웨어하우스의 가장 주요한 목적은 모든 데이터를 하나의 저장소에 모아두는 것이다.
 - MySQL로부터 일부 데이터 마이그레이션 예정
   - production DB는 서비스에 필요한 핵심 데이터만 들어가야 한다. 이를 통해 성능을 최대한 끌어올릴 수 있다.
