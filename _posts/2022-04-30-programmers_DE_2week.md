@@ -47,7 +47,7 @@ tags:
   - 여기서는 다양한 data source로부터 다양한 형태의 데이터를 원하는 형태로 변환하여 저장되는 데이터 웨어하우스와 같은 저장소를 의미한다.
   - 우리는 데이터 분석을 위해 scalable하면서 분리된 저장소가 필요한데, 데이터 웨어하우스가 필요하다는 이야기와 같다.
 
-![data lake](/assets/de2/datainfra.png)
+![data infra](/assets/de2/datainfra.png)
 
 ### 3. Data Infra를 간단하게 구축해보자!
 - 데이터 웨어하우스는 redshift로 사용할 예정
