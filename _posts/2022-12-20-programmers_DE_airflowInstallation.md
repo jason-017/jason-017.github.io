@@ -129,7 +129,9 @@ Airflow 웹서버와 스케줄러를 백그라운드 서비스로 사용하려�
 
 
 #### 웹서버와 스케줄러를 각기 서비스로 등록
+
 - 웹서버 서비스로 등록
+
 ```
 $ sudo vi /etc/systemd/system/airflow-webserver.service
 
@@ -151,6 +153,7 @@ WantedBy=multi-user.target
 ```
 
 - 스케줄러 서비스로 등록
+
 ```
 $ sudo vi /etc/systemd/system/airflow-scheduler.service
 
@@ -225,6 +228,7 @@ export AIRFLOW_HOME=/home/airflow
 ```
 
 ## 환경변수 적용 확인
+
 ```
 $ source ~/.bashrc
 $ echo $AIRFLOW_HOME
