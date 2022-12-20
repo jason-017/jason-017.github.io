@@ -47,12 +47,7 @@ masthead_title           : "Hello, jason!"# overrides the website title displaye
 
 
 
-글자 크기(font size), 프로필 사진, 카테고리 등 상단 메뉴 설정 정리
-
-
-
-
-아래 글들 따라하고 나만의 내용으로 정리하기
+위 내용 포함 글자 크기(font size), 프로필 사진, 카테고리 등의 설정 대부분은 아래 웹페이지들을 많이 참고했음.
 
 https://devinlife.com/howto%20github%20pages/github-pages-settings/
 
