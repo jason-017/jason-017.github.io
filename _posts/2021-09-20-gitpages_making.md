@@ -24,9 +24,9 @@ Pages를 이용하기 위해서는 repo name을 'username.github.io' 형식으�
 
 repository name을 username.github.io로 만들어준다.
 
-저 같은 경우는 username이 jason-017이기 때문에, jason-017.github.io로 등록했다.
+본인은 username이 jason-017이기 때문에, jason-017.github.io로 등록했다.
 
-username 부분을 다른 걸로 써줘도 되지만, 오류가 나는 경우가 있다고 하니 웬만하면 지켜서 써주는 것을 추천한다.(갑자기 잘 되다가 안될 경우 오류 찾는데 쓸 데 없이 많은 시간을 보낼 가능성이...)
+username 부분을 다른 걸로 써줘도 되지만, 오류가 나는 경우가 있다고 하니 웬만하면 지켜서 써주는 것을 추천한다.(잘되다가 갑자기 오류가 발생해서 시간 날리는 것이 너무 아깝다고 생각한다.)
 
 
 
@@ -37,10 +37,10 @@ local 파일과 repo를 연동시켜주는 작업이다.
 해당 작업을 통해 local에서 작업하고 commit만 시켜주면 된다.
 
 ```bash
-cd jason-017.github.io
-git init
-git remote add origin https://github.com/jason-017/jason-017.github.io.git
-git push origin master
+$ cd jason-017.github.io
+$ git init
+$ git remote add origin https://github.com/jason-017/jason-017.github.io.git
+$ git push origin master
 ```
 
 
@@ -51,7 +51,7 @@ git push origin master
 
 맥북의 경우 모든 겹치는 파일은 대치 처리해주면 된다.
 
-제가 사용한 테마는 가장 언급이 많이 된다고 느낀 minimal mistake입니다.
+본인이 사용한 테마는 minimal mistake입니다.
 
 [minimal mistake 깃허브 페이지](https://github.com/mmistakes/minimal-mistakes)
 
@@ -62,7 +62,7 @@ git push origin master
 #### 4. test
 
 ```bash
-bundle exec jekyll serve --trace
+$ bundle exec jekyll serve --trace
 ```
 
 위 명령어를 통해 local 환경에서 웹호스팅을 테스트해볼 수 있다.
@@ -73,10 +73,10 @@ bundle exec jekyll serve --trace
 
 #### 5. Github 웹호스팅
 
-Github repo > Settings > Github Pages 경로를 통해 들어가서 아래처럼 나오면 성공!
+웹으로 https://username.github.io 주소 접속되면 성공!
 
-https://username.github.io 웹에 검색하면 아래 사진처럼 나옵니다!
 
+![web page](/assets/gitpages/web_access.png)
 
 
 사실 저는 local에서 잘 돌아갔는데 github pages에서 뭔지 모를 오류가 발생해서 구글링을 통해 해결했습니다... ㅎㅎ
