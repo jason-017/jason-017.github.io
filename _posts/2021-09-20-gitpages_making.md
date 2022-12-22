@@ -73,12 +73,9 @@ $ bundle exec jekyll serve --trace
 
 #### 5. Github 웹호스팅
 
-웹으로 https://username.github.io 주소 접속되면 성공!
-
+웹으로 https://username.github.io 주소 접속되면 성공
 
 ![web page](/assets/gitpages/web_access.png)
 
 
-사실 저는 local에서 잘 돌아갔는데 github pages에서 뭔지 모를 오류가 발생해서 구글링을 통해 해결했습니다... ㅎㅎ
-
-(assets > css > main.scss 파일에서 문제가 생겼는데, **.gitignore** 파일에 vendor 라인을 삭제하니 정상적으로 작동하네요!)
+* assets > css > main.scss 파일에서 문제가 생겼는데, **.gitignore** 파일에 vendor 라인을 삭제하니 정상적으로 작동함.
