@@ -12,6 +12,14 @@ main:
   - title: "Monthly"
     url: /monthly/
 
+sidebar-category:
+  - title: "카테고리"
+    children:
+      - title: "airflow"
+        url: "/airflow"
+      - title: "python"
+        url:  "/python"
+
 #  - title: "Github"
 #    url: /categories/github #카테고리에 종속된 폴더라 그런지 카테고리 들어가면 메뉴에 안나온다...
 #  - title: "Tags"
