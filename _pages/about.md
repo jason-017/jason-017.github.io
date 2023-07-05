@@ -2,8 +2,6 @@
 title: "About"
 permalink: /about/
 layout: single
-toc: true # 우측 상단 목차 출력
-toc_sticky: true
 ---
 
 ## jason-017.github.io 블로그
