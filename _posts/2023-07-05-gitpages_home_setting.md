@@ -29,6 +29,3 @@ permanentlink: /categories/
 아래 보이는 것과 같이 categories로 보이는 것을 확인할 수 있다.
 
 ![favicon example](/assets/categories_jason.png)
-
-나의 경우 minimal mistakes를 사용하고 있긴 하나 지킬 기반일 경우 적용 방법은 비슷할 것으로 보인다.
-적용 방법도 매우 간단하다.
