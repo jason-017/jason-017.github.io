@@ -4,7 +4,6 @@ excerpt: "centOS7에서 postgresql을 빠르게 설치해보자!"
 
 categories:
  - postgreSQL
- - DB
 tags:
  - postgresql
  - database
