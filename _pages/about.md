@@ -1,6 +1,6 @@
 ---
 title: "About"
-permalink: /about/
+#permalink: /about/
 layout: single
 toc: true # 우측 상단 목차 출력
 toc_sticky: true
