@@ -2,11 +2,12 @@
 title: "About"
 permalink: /about/
 layout: single
+date: 2023-07-05
 ---
 
 ## Profile
 
-<img src="/assets/me.jpg" width="30%" height="30%">
+<img src="/assets/me.jpg" width="50%" height="30%">
 
 ### 학업
 - 응용통계학과 & 소프트웨어학과 전공
