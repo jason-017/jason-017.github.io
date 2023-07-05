@@ -17,42 +17,42 @@ tags:
 
 1. 유저 추가
 
-```bash
-$ useradd postgresql
-$ su - postgresql
-```
+    ```bash
+    $ useradd postgresql
+    $ su - postgresql
+    ```
 
 2. 설치 파일 압축 해제
 
-```bash
-$ tar -xf postgresql-13.3.tar.gz
-$ cd postgresql-13.3
-```
+    ```bash
+    $ tar -xf postgresql-13.3.tar.gz
+    $ cd postgresql-13.3
+    ```
 
 3. 엔진 설치
 
-```bash
-./configure --prefix=/home/postgresql/pgsql
-make && make install
-```
+    ```bash
+    ./configure --prefix=/home/postgresql/pgsql
+    make && make install
+    ```
 
 4. DB 클러스터 초기화
 
-```bash
-$ cd /home/postgresql/pgsql/bin
-$ ./initdb -D /home/postgresql/pgsql/data
-```
+    ```bash
+    $ cd /home/postgresql/pgsql/bin
+    $ ./initdb -D /home/postgresql/pgsql/data
+    ```
 
 5. bash 초기 설정
 
-```bash
-$ vi ~/.bash_profile # 아래 내용 추가
-export LD_LIBRARY_PATH=:$HOME/pgsql/lib
-export PATH=$PATH:$HOME/pgsql/bin
-export PGDATA=$HOME/pgsql/data
+    ```bash
+    $ vi ~/.bash_profile # 아래 내용 추가
+    export LD_LIBRARY_PATH=:$HOME/pgsql/lib
+    export PATH=$PATH:$HOME/pgsql/bin
+    export PGDATA=$HOME/pgsql/data
 
-$ source ~/.bash_profile # 추가 후 source 작업
-```
+    $ source ~/.bash_profile # 추가 후 source 작업
+    ```
 
 **[외부 통신 설정]**
 1. postgresql 포트 설정
