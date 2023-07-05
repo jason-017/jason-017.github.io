@@ -1,13 +1,9 @@
 ---
-title: "About"
+title: "Profile"
 permalink: /about/
 layout: single
 date: 2023-07-05
 ---
-
-## Profile
-
-<img src="/assets/me.jpg" width="50%" height="30%">
 
 ### 학업
 - 응용통계학과 & 소프트웨어학과 전공
@@ -37,3 +33,5 @@ date: 2023-07-05
 
 ### Sport
 - 주로 테니스와 풋살을 즐기며, 테니스에 더욱 열정을 쏟고 있습니다. 테니스만의 손맛과 서로 간 수싸움이 너무나 매력적인 스포츠라고 생각합니다.
+
+<img src="/assets/me.jpg" width="100%" height="30%">
