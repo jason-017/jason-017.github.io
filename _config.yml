@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "jason"
   avatar           : "/assets/image.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**기록하는 공간!**"
+  bio              : "**지극히 주관적인 테크 백과사전**"
   location         : "South Korea"
   email            : 
   links:
