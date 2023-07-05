@@ -20,14 +20,15 @@ favicon이라 함은 브라우저의 주소창에 표시되는 웹페이지를 �
 적용 방법도 매우 간단하다.
 
 1. 이미지를 파비콘으로 만들기
-    파비콘의 경우 일반적으로 자신 또는 기업을 잘 나타내는 이미지를 사용하지만 그냥 좋아하는 이미지를 사용해도 무방하다. 저작권만 조심하자! [해당 링크](https://www.favicon-generator.org)에서 이미지를 업로드하여 파비콘 만들어준다.
-    아래와 같이 다운로드 링크와 함께 html 코드가 같이 나타나면 정상적으로 변경된 것이다. 'Download the generated favicon'을 클릭하면 실제 파비콘 파일들이 다운로드된다.
+   파비콘의 경우 일반적으로 자신 또는 기업을 잘 나타내는 이미지를 사용하지만 그냥 좋아하는 이미지를 사용해도 무방하다. 저작권만 조심하자! [해당 링크](https://www.favicon-generator.org)에서 이미지를 업로드하여 파비콘 만들어준다.
+
+   아래와 같이 다운로드 링크와 함께 html 코드가 같이 나타나면 정상적으로 변경된 것이다. 'Download the generated favicon'을 클릭하면 실제 파비콘 파일들이 다운로드된다.
     다운로드 받은 압축 파일을 풀어서 assets 폴더에 넣어준다.
 
     ![favicon create](/assets/favicon_create.png)
 
 2. 파비콘 적용하기
-    _includes > head > custom.html에 아까 생성된 html 코드를 넣어주면 바로 적용이 가능하다.
+   _includes > head > custom.html에 아까 생성된 html 코드를 넣어주면 바로 적용이 가능하다.
     ```bash
     $ vi _includes/head/custom.html
     <!-- start custom head snippets -->
@@ -53,7 +54,6 @@ favicon이라 함은 브라우저의 주소창에 표시되는 웹페이지를 �
 
 3. git push
     git push를 위해선 당연히 로그인 되어 있어야 한다. 이미 github pages를 구축하신 분들은 로그인 과정을 거쳤다고 생각하기에 생략한다.
-
     ```bash
     $ git add ./ 
     $ git commit -m 'commit msg'
