@@ -3,8 +3,8 @@ main:
   - title: "Home"
     url: https://jason-017.github.io 
 
-#  - title: "About"
-#    url: /about/
+  - title: "About"
+    url: /about/
 
   - title: "Categories"
     url: /categories/
