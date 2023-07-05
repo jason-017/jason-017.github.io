@@ -16,7 +16,7 @@ favicon이라 함은 브라우저의 주소창에 표시되는 웹페이지를 �
 
 ![favicon example](/assets/favicon_ex.png)
 
-나의 경우 minimal mistakes를 사용하고 있긴 하나 지킬 기반일 경우 적용 방법은 비슷할 것으로 보인다.
+필자의 경우 minimal mistakes를 사용하고 있긴 하나 지킬 기반일 경우 적용 방법은 비슷할 것으로 보인다.
 적용 방법도 매우 간단하다.
 
 1. 이미지를 파비콘으로 만들기
