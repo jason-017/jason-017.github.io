@@ -127,7 +127,7 @@ blockquote {
 
 a {
   /*하이퍼링크 밑줄 없애기*/
-  text-decoration: none;
+  /* text-decoration: none; */
   &:focus {
     @extend %tab-focus;
   }
