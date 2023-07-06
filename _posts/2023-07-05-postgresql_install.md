@@ -15,8 +15,8 @@ Its's a super fast track!<br>
 설치 및 외부 통신까지만 다루며 conf 등은 추후에 다룰 예정이다.<br>
 ![super fast](/assets/superfast.png)
 
-[posrgresql 설치 파일 다운로드 링크](https://www.postgresql.org/ftp/source)<br>
-![postgresql 설치 페이지](/assets/postgresql_install.png)
+<img src="/assets/postgresql_install.png" width="80%" height="80%"><br>
+[posrgresql 설치 파일 다운로드 링크](https://www.postgresql.org/ftp/source)
 
 1. 유저 추가
     ```bash
