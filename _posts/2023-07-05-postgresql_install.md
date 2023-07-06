@@ -52,16 +52,16 @@ Its's super fast track!
     ```
 
 6. 외부 통신 설정
-    - postgresql 포트 설정: port 접근 가능하도록 conf 파일 내 port 주석을 해제한다. conf 파일은 일반적으로 postgresql > data 디렉토리 아래에 있다.
+    - postgresql 포트 설정
+      - port 접근 가능하도록 conf 파일 내 port 주석을 해제한다. conf 파일은 일반적으로 postgresql > data 디렉토리 아래에 있다.
+    - postgresql 클라이언트 설정
+      - postgresql은 pg_hba.conf 파일을 통해 클라이언트 주소, 역할, DB 연결 허용 여부를 설정한다.
     ```bash
     $ vi /home/postgresql/pgsql/data/postgresql.conf
     ...
     port=5432
     ...
-    ```
 
-    - postgresql 클라이언트 설정: postgresql은 pg_hba.conf 파일을 통해 클라이언트 주소, 역할, DB 연결 허용 여부를 설정한다.
-    ```bash
     # 모든 클라이언트가 모든 DB에 접근할 수 있도록 허용했다.
     $ vi /home/postgresql/pgsql/data/pg_hba.conf
     # TYPE  DATABASE        USER            ADDRESS                 METHOD
