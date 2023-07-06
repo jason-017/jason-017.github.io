@@ -1,6 +1,6 @@
 ---
-title: "Github pages로 블로그 만들기"
-excerpt: "Github pages 간단 설명서"
+title: "[github pages] 깃허브 블로그 만들기"
+excerpt: "Github pages로 깃허브 블로그를 빠르게 만들어 보자!"
 
 categories:
  - github pages
@@ -8,33 +8,18 @@ tags:
  - github
  - pages
  - github pages
+ - minimal mistakes
 ---
-
-### Github 블로그 만들기 간단 설명서
-
-#### 0. Github 블로그
-
-Github 블로그라고 알려진 github pages라는 서비스가 존재한다.
-
-Pages를 이용하기 위해서는 repo name을 'username.github.io' 형식으로 지어줘야 한다.
-
-
-
-#### 1. github repository 생성
-
-repository name을 username.github.io로 만들어준다.
-
-본인은 username이 jason-017이기 때문에, jason-017.github.io로 등록했다.
-
-username 부분을 다른 걸로 써줘도 되지만, 오류가 나는 경우가 있다고 하니 웬만하면 지켜서 써주는 것을 추천한다.(잘되다가 갑자기 오류가 발생해서 시간 날리는 것이 너무 아깝다고 생각한다.)
-
-
-
-#### 2. remote repository
-
-local 파일과 repo를 연동시켜주는 작업이다.
-
-해당 작업을 통해 local에서 작업하고 commit만 시켜주면 된다.
+## Github 블로그
+Github 블로그라고 알려진 github pages라는 서비스가 존재한다. 감사하게도 github에서 무료로 웹호스팅까지 지원해주는 블로그 서비스라고 생각하면 될 것 같다.<br>
+Pages를 이용하기 위해서는 repo name을 'username.github.io' 형식으로 지어준다.
+### github repository 생성
+repository name을 username.github.io로 만들어준다. 필자는 username이 jason-017이기 때문에 jason-017.github.io로 등록했다.<br>
+그리고 public, private를 선택할 수 있는데 github pages를 사용하기 위해서는 public으로 해야만 한다. 말 그대로 공개할건지, 하지 않을건지 결정하는 사항이다.<br>
+![create-repo](/assets/create-repo.png)<br>
+### remote repository
+local 디렉토리와 repo를 연동시켜주는 작업이다. 해당 작업을 통해 local에서 작업할 수 있는 환경을 만든다.<br>
+이를 통해 인터넷 사용이 불가능한 상황에서도 설정, 포스트 작성 등을 할 수 있고, 추후에 인터넷이 가능한 상황에 push만 해주면 된다.
 
 ```bash
 $ cd jason-017.github.io
@@ -43,39 +28,25 @@ $ git remote add origin https://github.com/jason-017/jason-017.github.io.git
 $ git push origin master
 ```
 
+### 지킬 테마 적용
+원하는 테마를 다운로드 받고 파일을 repo와 연동된 local 디렉토리에 압축을 풀어준다. 필자가 사용할 테마는 minimal mistakes라는 매우 유명한(아마도 가장 유명한...?) 테마이다.<br>
+앞으로 작성할 github pages 관련 글은 모두 minimal mistakes 기준으로 작성할 예정이다. 해당 테마 또는 지킬 기반의 테마를 사용하는 유저들에게만 참고 사항이 될 것 같다.<br>
+[minimal mistake 깃허브 페이지](https://github.com/mmistakes/minimal-mistakes)<br>
+![minimal-download](/assets/minimal-download.png)<br>
 
-
-#### 3. jekyll theme 적용
-
-원하는 테마를 다운로드 받고 파일을 디렉토리에 복붙해주면 된다.
-
-맥북의 경우 모든 겹치는 파일은 대치 처리해주면 된다.
-
-본인이 사용한 테마는 minimal mistake입니다.
-
-[minimal mistake 깃허브 페이지](https://github.com/mmistakes/minimal-mistakes)
-
-해당 페이지에서 'Code -> Download ZIP -> 압축해제 후 모든 파일 username.github.io 폴더에 복붙'
-
-
-
-#### 4. test
+### 웹호스팅 테스트
+아래 명령어를 통해 local 환경에서 웹호스팅을 테스트해볼 수 있다.<br>
+http://127.0.0.1:4000 주소에 접속하여 정상적으로 웹이 뜨는지 확인해보자.
 
 ```bash
 $ bundle exec jekyll serve --trace
 ```
 
-위 명령어를 통해 local 환경에서 웹호스팅을 테스트해볼 수 있다.
-
-웹주소: http://127.0.0.1:4000에서 정상적으로 작동한다.
-
-
-
-#### 5. Github 웹호스팅
-
-웹으로 https://username.github.io 주소 접속되면 성공
+### Github 웹호스팅
+https://username.github.io 주소로 접속하여 에러 없이 웹페이지가 뜨면 성공!<br>
+필자의 경우 https://jason-017.github.io로 접속하면 정상적으로 웹페이지가 출력된다.
 
 ![web page](/assets/gitpages/web_access.png)
 
-
-* assets > css > main.scss 파일에서 문제가 생겼는데, **.gitignore** 파일에 vendor 라인을 삭제하니 정상적으로 작동함.
+### TMI
+assets > css > main.scss 파일에서 문제가 생겼는데, **.gitignore** 파일에 vendor 라인을 삭제하니 정상 동작한다.
