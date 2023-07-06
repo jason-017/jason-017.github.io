@@ -1,7 +1,7 @@
 ---
 title: "[NIFI] Apache NiFi 설치"
 categories:
- - NiFi
+ - NIFI
 excerpt: "centOS 7에 Apache NiFi 설치하기"
 tags:
  - apache
@@ -10,16 +10,15 @@ tags:
  - ETL
 ---
 ### centOS 7에 Apache NIFI 설치
-Apache NiFi tar.gz 파일을 다운로드한다. 설치한 tar.gz 파일을 centOS로 옮겨서 원하는 위치에 압축을 풀어주고, nifi-env.sh 파일에서 JAVA_HOME 주석을 해제해준다.<br>
-참고로 자바는 1.8 이상의 버전을 지원한다고 명시되어 있다.<br>
+Apache NiFi tar.gz 파일을 다운로드한다. 설치한 tar.gz 파일을 centOS로 옮겨서 원하는 위치에 압축을 풀어주고, nifi-env.sh 파일에서 JAVA_HOME 주석을 해제해준다. 참고로 자바는 1.8 이상의 버전을 지원한다고 명시되어 있다.<br>
 ![nifi download](/assets/nifi_image/nifidownload.PNG)<br>
 [NiFi 다운로드 페이지로 이동](https://nifi.apache.org/download.html)<br>
 
 ```bash
-bash> echo $JAVA_HOME
+$ echo $JAVA_HOME
 /usr/local/java/jdk1.8.0_311
 
-bash> vi /nifi-1.16.0/bin/nifi-env.sh
+$ vi /nifi-1.16.0/bin/nifi-env.sh
 ...
 # The java implementation to use.
 export JAVA_HOME=/usr/local/java/jdk1.8.0_311/
@@ -33,7 +32,7 @@ nifi.properties 파일에 http 또는 https 설정를 설정한다. http와 http
 - nifi.web.http.host(s): http(s)로 접근을 허용할 host 이름이며, 모든 네트워크 접근을 허용하려면 0.0.0.0으로 설정하면 된다.
     
 ```bash
-bash> vi nifi-1.16.0/conf/nifi.properties
+$ vi nifi-1.16.0/conf/nifi.properties
 ...
 # Site to Site properties
 nifi.remote.input.host=

@@ -13,7 +13,7 @@ tags:
 ## Apache NiFi 소개
 apache에서는 'Apache NiFi supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic.'라고 설명하고, 위키백과에서는 '소프트웨어 시스템 간 데이터 흐름을 자동화하도록 설계된 아파치 소프트웨어 재단의 소프트웨어 프로젝트'라고 설명한다.
 
-NSA(National Security Agency)에서 apache에 기증한 데이터플로우 엔진이며, 대용량 데이터를 수집 및 처리할 수 있는 ETL 툴의 일종이며, FBP 개념이 적용되었다고 한다.
+NSA(National Security Agency)에서 apache에 기증한 데이터플로우 엔진이며, 대용량 데이터를 수집 및 처리할 수 있는 ETL 툴의 일종이며, FBP 개념이 적용되었다고 한다.<br>
 `FBP(Flow Based Programming): 데이터플로우 프로세스를 미리 구축하고 이를 유지하면서 데이터를 교환하는 프로그래밍 패러다임`
 
 MiNiFi라는 프로젝트를 함께 활용하여 원격지로부터 데이터를 수집할 수 있다. 다수의 원격지가 존재하더라도 모든 데이터 수집 흐름은 연동된 NIFI가 관리한다.<br>
