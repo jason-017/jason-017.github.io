@@ -10,22 +10,17 @@ tags:
  - github pages
  - minimal mistakes
 ---
-
 #### Configuration
 github pages(깃허브 블로그)는 _config.yml 파일을 이용하여 웹페이지 전반을 세팅을 할 수 있다.<br>
 필자는 minimal mistakes 테마를 사용중이다.
-
 ```
 # skin 변경
 minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 ```
 
-기본으로 제공하는 skin이 몇가지 존재한다.
-
-[minimal mistake configuration 공홈](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)에 실제 skin이 적용된 모습이 업로드되어 있으므로 참고해서 적용하면 된다.
-
+기본으로 제공하는 skin이 몇가지 존재한다.<br>
+[minimal mistake configuration 공홈](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)에 실제 skin이 적용된 모습이 업로드되어 있으므로 참고해서 적용하면 된다.<br>
 skin 목록은 _sass/minimal-mistakes/skins에서 확인 가능하며, background color 등 다양한 부분의 color를 변경할 수 있다.
-
 ```
 # Site Settings
 title                    : "Hello, jason!" # website 이름(tab에 보이는 이름)
@@ -40,18 +35,3 @@ masthead_title           : "Hello, jason!"# overrides the website title displaye
 ```
 
 주석은 초기 설정일 경우 UI를 통해 보이는 위치를 기반으로 설명되었습니다.
-
-## github pages에 사진 넣는 방법
-- 마크다운 형식을 따르기 때문에 ```![표시할 이미지명](이미지 절대 경로)```로 삽입이 가능하다. local PC에서는 상대 경로를 사용해도 웬만하면 사진이 제대로 출력되는데, github pages의 경우 상대 경로를 입력하면 엉뚱한 경로를 바라볼 수도 있기 때문에 <u>절대 경로를 입력</u>해줘야 한다.
-	- 절대 경로 사용: ```![test](/assets/images/test.png)```
-	- 상대 경로 사용: ```![test](../assets/images/test.png)```
-
-
-
-위 내용 포함 글자 크기(font size), 프로필 사진, 카테고리 등의 설정 대부분은 아래 웹페이지들을 많이 참고했음.
-
-https://devinlife.com/howto%20github%20pages/github-pages-settings/
-
-https://eona1301.github.io/github_blog/GithubBlog-Content-Width/
-
-https://danggai.github.io/categories/#github-io
