@@ -12,7 +12,7 @@ tags:
 ## CentOS에 postgreSQL 설치하기
 CentOS 7에 postgreSQL을 빠르고 간단하게 설치할 예정이다.<br>
 Its's a super fast track!<br>
-<center><img src="/assets/superfast.png" width="100%" height="100%"></center><br>
+![super fast](/assets/superfast.png)<br>
 간단 설치 가이드이기 때문에 설치 및 외부 통신까지만 다루며 conf 등은 추후에 다룰 예정이다.
 
 ### postgresql 압축 파일 다운로드
