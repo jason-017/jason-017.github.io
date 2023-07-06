@@ -10,8 +10,9 @@ tags:
  - github pages
 ---
 
-## github pages에 favicon을 적용해보자!
+### github pages에 favicon을 적용해보자!
 favicon이라 함은 브라우저의 주소창에 표시되는 웹페이지를 대표하는 이미지이다. favorites와 icon의 합성어이다.
+
 아래와 같이 동그라미 표시한 네이버와 다음 아이콘을 파비콘이라고 한다.
 
 ![favicon example](/assets/favicon_ex.png)
