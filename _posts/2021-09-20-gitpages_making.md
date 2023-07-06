@@ -1,6 +1,6 @@
 ---
 title: "[github pages] 깃허브 블로그 만들기"
-excerpt: "github pages(깃허브 블로그) 구축 가이드"
+excerpt: "github pages(깃허브 블로그) 구축"
 
 categories:
  - github pages
