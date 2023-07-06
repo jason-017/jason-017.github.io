@@ -12,10 +12,10 @@ tags:
 ### CentOS에 postgreSQL 설치하기
 CentOS 7에 postgreSQL을 빠르고 간단하게 설치해보자!<br>
 Its's a super fast track!<br>
-설치 및 외부 통신까지만 다루며 conf 등은 추후에 다룰 예정이다.
+설치 및 외부 통신까지만 다루며 conf 등은 추후에 다룰 예정이다.<br>
 ![super fast](/assets/superfast.png)
 
-[posrgresql 설치 파일 다운로드 링크](https://www.postgresql.org/ftp/source)
+[posrgresql 설치 파일 다운로드 링크](https://www.postgresql.org/ftp/source)<br>
 ![postgresql 설치 페이지](/assets/postgresql_install.png)
 
 1. 유저 추가
