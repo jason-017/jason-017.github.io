@@ -12,7 +12,7 @@ tags:
 ---
 ## Configuration
 github pages(깃허브 블로그)는 _config.yml 파일을 통해 웹페이지 전반을 세팅할 수 있다.
-### theme skin
+## theme skin
 필자는 minimal mistakes 테마에 dirt skin을 사용중이며 스킨 색상을 커스텀하여 사용하고 있다.
 ```bash
 # skin 변경
@@ -21,7 +21,7 @@ minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 [minimal mistake configuration 공홈](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)에 skin 예시를 확인할 수 있으므로 참고해서 적용하면 된다.<br>
 skin별 색상 조합은 `_sass/minimal-mistakes/skins`에서 확인 가능하며, background color 등 다양한 부분의 색상을 변경할 수 있다.
-### site settings
+## site settings
 웹페이지에 기본적으로 보여질 웹페이지 제목, 기본 언어, 이름 등을 설정할 수 있다. 필자의 경우 아래만 설정해도 사용성에 큰 문제가 없다고 생각된다.
 ```bash
 # Site Settings
@@ -41,7 +41,7 @@ masthead_title           : "Hello, jason!"# overrides the website title displaye
 ```
 
 ![site settings](/assets/site_auth1.png)
-### site author
+## site author
 웹페이지에 보여질 작성자 정보를 설정한다고 생각하면 된다.
 ```bash
 # Site Author
