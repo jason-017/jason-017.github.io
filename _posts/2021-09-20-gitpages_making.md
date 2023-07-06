@@ -45,7 +45,7 @@ $ bundle exec jekyll serve --trace
 ### Github 웹호스팅
 `https://username.github.io` 주소로 접속하여 에러 없이 웹페이지가 뜨면 성공!<br>
 
-<img src="/assets/success.jpeg" width="110%" height="110%">
+<center><img src="/assets/success.jpeg" width="100%" height="100%"></center>
 
 ### TMI
 assets > css > main.scss 파일에서 문제가 생겼는데, .gitignore 파일에 vendor 라인을 삭제하니 정상 동작한다.
