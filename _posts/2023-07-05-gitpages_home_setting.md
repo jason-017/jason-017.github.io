@@ -1,6 +1,6 @@
 ---
 title: "[github pages] 최초 접속(home) 페이지 설정"
-excerpt: "github pages에 최초 접속했을 때의 페이지(home)를 설정해보자!"
+excerpt: "github pages(깃허브 블로그) 구축 가이드"
 
 categories:
  - github pages

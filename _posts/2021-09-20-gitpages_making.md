@@ -1,6 +1,6 @@
 ---
 title: "[github pages] 깃허브 블로그 만들기"
-excerpt: "Github pages로 깃허브 블로그를 빠르게 만들어 보자!"
+excerpt: "github pages(깃허브 블로그) 구축 가이드"
 
 categories:
  - github pages

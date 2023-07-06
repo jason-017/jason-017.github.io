@@ -1,6 +1,6 @@
 ---
 title: "[github pages] favicon 적용하기"
-excerpt: "github pages에 favicon을 적용해보자!"
+excerpt: "github pages(깃허브 블로그) 구축 가이드"
 
 categories:
  - github pages

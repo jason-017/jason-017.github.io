@@ -1,6 +1,6 @@
 ---
 title: "[github pages] 깃허브 블로그 config 설정"
-excerpt: "github pages를 입맛에 맞게 설정해보자!"
+excerpt: "github pages(깃허브 블로그) 구축 가이드"
 
 categories:
  - github pages
