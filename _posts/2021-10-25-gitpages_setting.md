@@ -1,6 +1,6 @@
 ---
-title: "github pages 설정"
-excerpt: "github pages 설정 draft"
+title: "[github pages] 깃허브 블로그 설정(_config.yml)"
+excerpt: "github pages를 입맛에 맞게 설정해보자!"
 
 categories:
  - github pages
@@ -8,11 +8,12 @@ tags:
  - github
  - pages
  - github pages
+ - minimal mistakes
 ---
 
 #### Configuration
-
-_config.yml: github pages 전체 site를 바꿀 수 있는 파일
+github pages(깃허브 블로그)는 _config.yml 파일을 이용하여 웹페이지 전반을 세팅을 할 수 있다.<br>
+필자는 minimal mistakes 테마를 사용중이다.
 
 ```
 # skin 변경
