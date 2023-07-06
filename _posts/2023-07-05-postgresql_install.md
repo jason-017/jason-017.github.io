@@ -17,7 +17,7 @@ Its's a super fast track!<br>
 ### postgresql 압축 파일 다운로드
 먼저 postgresql 홈페이지에 접속하여 tar 파일을 다운로드한다. 필자의 경우 v13.3 버전(postgresql-13.3.tar.gz)으로 다운로드했다.<br>
 <img src="/assets/postgresql_install.png" width="80%" height="80%"><br>
-[posrgresql 설치 파일 다운로드 링크](https://www.postgresql.org/ftp/source)
+[postgresql 설치 파일 다운로드 링크](https://www.postgresql.org/ftp/source)
 
 ### 유저 추가
 ```bash

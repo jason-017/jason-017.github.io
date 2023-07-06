@@ -34,6 +34,7 @@ $ git push origin master
 
 <center><img src="/assets/minimal-download.png" width="100%" height="100%"></center><br>
 [minimal mistake 깃허브 페이지](https://github.com/mmistakes/minimal-mistakes)
+
 ### 웹호스팅 테스트
 아래 명령어를 통해 local 환경에서 웹호스팅을 테스트해볼 수 있다.<br>
 http://127.0.0.1:4000 주소에 접속하여 정상적으로 웹이 뜨는지 확인하자.
