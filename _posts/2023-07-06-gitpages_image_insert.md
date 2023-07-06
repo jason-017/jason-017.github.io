@@ -14,7 +14,7 @@ github pages(깃허브 블로그)를 사용하면서 가장 불편한 점을 고
 
 지금은 익숙하고 어떻게 보면 간단한 이미지 삽입 방법은 아래와 같다.
 
-### github pages에 사진 넣는 방법
+## github pages에 사진 넣는 방법
 마크다운, html 형식으로 삽입이 가능하다. 찾아봤을 때는 마크다운 형식으로도 이미지 크기가 조절된다고 하는데 필자는 마크다운으로는 실패했다. 때문에 웬만하면 html 형식으로 이미지를 삽입하고 있다. 필자 경험으로는 마크다운 문서에는 html 코드가 잘 반영되는 것 같기에 이미지 삽입 뿐만 아니라 가운데 정렬 등 간단하면서 강력한 기능들을 html로 이용하는 것을 추천한다.
 - 마크다운: `![표시할 이미지명](이미지 경로)`
 - html: `<img src="이미지 경로" width="50%" height="50%">`
@@ -25,12 +25,22 @@ local PC에서는 절대 또는 상대 경로 중 편한 걸 사용하면 되고
 
 지금은 텍스트 복붙 한방(최종 파일명 바꿔야 하므로 사실은 두방...ㅎ)으로 이미지 삽입이 가능하다는 생각에 편리하지 않나 싶다가도, 사람이 적응하면 편하게 느껴진다고... 마치 매일 밤 느끼는 빛번짐 마냥...
 
-![빛번짐](/assets/빛번짐.png)
+<center>![빛번짐](/assets/빛번짐.png)</center>
 
 ### TMI
 초기에는 이미지가 제대로 반영됐는지 확인하기 위해 local PC 경로를 입력하여 프리뷰하고, commit 전에 gitub repo에 맞게 수정했는데 지금은 바로 repo 기준으로 작성하고 있다. 어차피 이미지 사이즈는 프리뷰 말고 웹에서 봐야 정확한 것 같다는 주관적인 판단 때문이다.
-- github pages용 경로<br>`![test](/assets/images/test.png)`
 
-- local PC용 경로<br>보통 posts 디렉토리 아래 있는 md들이 이미지를 참고하는 경우가 많기 때문에 상대경로를 ../ 시작했다.<br>`![test](../assets/images/test.png)`
+```bash
+# github pages용 경로
+![test](/assets/images/test.png)
+또는
+<img src="/assets/images/test.png" width="50%" height="50%">
+
+# local PC용 경로
+# 보통 posts 디렉토리 아래 있는 마크다운 문서들이 이미지를 바라보는 경우가 많기 때문에 상대경로는 ../ 로 시작한다.
+![test](../assets/images/test.png)
+또는
+<img src="../assets/images/test.png" width="50%" height="50%">
+```
 
 
