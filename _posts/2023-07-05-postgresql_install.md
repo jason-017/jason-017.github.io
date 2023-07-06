@@ -10,8 +10,8 @@ tags:
 ---
 
 ### CentOS에 postgreSQL 설치하기
-CentOS 7에 postgreSQL을 빠르고 간단하게 설치해보자!
-Its's super fast track!
+CentOS 7에 postgreSQL을 빠르고 간단하게 설치해보자!<br>
+Its's super fast track!<br>
 설치 및 외부 통신까지만 다루며 conf 등은 추후에 다룰 예정이다.
 
 [posrgresql 설치 파일 다운로드 링크](https://www.postgresql.org/ftp/source)
@@ -56,17 +56,17 @@ Its's super fast track!
       - port 접근 가능하도록 conf 파일 내 port 주석을 해제한다. conf 파일은 일반적으로 postgresql > data 디렉토리 아래에 있다.
     - postgresql 클라이언트 설정
       - postgresql은 pg_hba.conf 파일을 통해 클라이언트 주소, 역할, DB 연결 허용 여부를 설정한다.
-    ```bash
-    $ vi /home/postgresql/pgsql/data/postgresql.conf
-    ...
-    port=5432
-    ...
+```bash
+$ vi /home/postgresql/pgsql/data/postgresql.conf
+...
+port=5432
+...
 
-    # 모든 클라이언트가 모든 DB에 접근할 수 있도록 허용했다.
-    $ vi /home/postgresql/pgsql/data/pg_hba.conf
-    # TYPE  DATABASE        USER            ADDRESS                 METHOD
-    ...
-    host    all             all             0.0.0.0/0               trust
-    ...
-    ```
+# 모든 클라이언트가 모든 DB에 접근할 수 있도록 허용했다.
+$ vi /home/postgresql/pgsql/data/pg_hba.conf
+# TYPE  DATABASE        USER            ADDRESS                 METHOD
+...
+host    all             all             0.0.0.0/0               trust
+...
+```
     

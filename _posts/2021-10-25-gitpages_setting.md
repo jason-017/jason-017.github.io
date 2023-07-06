@@ -21,7 +21,6 @@ minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 [minimal mistake configuration 공홈](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)에 skin 예시를 확인할 수 있으므로 참고해서 적용하면 된다.<br>
 skin별 색상 조합은 `_sass/minimal-mistakes/skins`에서 확인 가능하며, background color 등 다양한 부분의 색상을 변경할 수 있다.
-
 ### site settings
 웹페이지에 기본적으로 보여질 웹페이지 제목, 기본 언어, 이름 등을 설정할 수 있다. 필자의 경우 아래만 설정해도 사용성에 큰 문제가 없다고 생각된다.
 ```
@@ -41,8 +40,7 @@ masthead_title           : "Hello, jason!"# overrides the website title displaye
 ...
 ```
 
-![site settings](/assets/site_auth1.PNG)
-
+![site settings](/assets/site_auth1.png)
 ### site author
 웹페이지에 보여질 작성자 정보를 작성한다고 생각하면 된다.
 ```
@@ -64,8 +62,7 @@ author:
 	  ...
 ```
 
-![auth settings](/assets/site_auth2.PNG)
-
+![auth settings](/assets/site_auth2.png)
 이외 추가적인 부분은 공식 홈페이지를 참고하여 세팅하면 된다.<br>
 참고로 필자는 해당 수준의 세팅만으로도 충분히 만족하며 사용중이다. 추후에 시간적 여유가 생기면 직접 레이아웃 등을 커스터마이징할 예정이다.<br>
 만약 페이지를 더 이쁘게 꾸미는 게 목적이면 config.yml에 시간을 들이기 보다는 _includes, _data 등을 만지는 게 더 적합할 것 같다.
