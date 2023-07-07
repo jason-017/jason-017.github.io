@@ -10,8 +10,7 @@ tags:
  - ETL
 ---
 ## centOS 7에 Apache NIFI 설치
-Apache NiFi tar.gz 파일을 다운로드한다. 설치한 tar.gz 파일을 centOS로 옮겨서 원하는 위치에 압축을 풀어주고, nifi-env.sh 파일에서 JAVA_HOME 주석을 해제해준다.<br>
-참고로 자바는 1.8 이상의 버전을 지원한다고 명시되어 있다.<br>
+Apache NiFi tar.gz 파일을 다운로드한다. 설치한 tar.gz 파일을 centOS로 옮겨서 원하는 위치에 압축을 풀어주고, nifi-env.sh 파일에서 JAVA_HOME 주석을 해제해준다. 참고로 자바는 1.8 이상의 버전을 지원한다고 명시되어 있다.<br>
 ![nifi download](/assets/nifi_image/nifidownload.PNG)<br>
 [NiFi 다운로드 페이지로 이동](https://nifi.apache.org/download.html)<br>
 
