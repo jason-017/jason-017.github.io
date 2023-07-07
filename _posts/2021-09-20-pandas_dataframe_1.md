@@ -13,7 +13,9 @@ tags:
 [python pandas 공식 홈페이지로 이동](https://docs.python.org/3/tutorial/datastructures.html)
 
 
-### DataFrame 생성
+## DataFrame 생성
+기본적으로 파일명, 인코딩 방식, 헤더를 파라미터 값으로 넣어주면 된다.<br>
+헤더는 컬럼명이 있는 행을 지정한다. pandas의 경우 첫번째 행을 0으로 표시하므로 첫번째 행에 컬럼명이 표시된 경우 헤더를 0으로 지정하면 된다. 만약 컬럼이 없다면 직접 추가하거나 None으로 지정할 수 있다.
 
 ```python
 import pandas as pd
@@ -37,7 +39,7 @@ dic_lst = [{'c': 0, 'b': 1, 'a': 2}, {'a': 3, 'b': 4, 'c': 5}, {'b': 6, 'a': 7, 
 df = df.append(dic_lst)
 ```
 
-### column 배열 설정
+## column 순서 바꾸기
 
 ```python
 # 칼럼명 이용하는 경우
@@ -52,10 +54,9 @@ columns_reorder = columns2 + columns1
 df = df[columns]
 ```
 
-### DataFrame 필터링
-
-- pandas에서 str을 다루기 위해 series로 접근
-- 데이터 필터링을 True, False로 다룰 수 있음
+## DataFrame 필터링
+- pandas에서 str을 다루기 위해 series로 접근해야 한다.
+- boolean(True, False)으로 다룰 수 있다.
 
 ```python
 # df['name'] == 'jason'이 True/False로 반환되고, True인 row만 출력
@@ -68,7 +69,7 @@ df[df['name'].isnull()]
 df[df['name'].isin(['a', 'b', 'c'])] 
 
 # &, |로 and, or 조건을 적용할 수 있음
-# ()로 구분해줘야 제대로 인식함
+# ()로 구분해줘야 제대로 인식함.
 df[(df['name'] == 'jason') | (df['name'] == 'leo')]
 df[(df['name'] == 'jason') & (df['smoking'] == 'no')]
 ```
