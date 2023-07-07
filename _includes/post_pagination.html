@@ -14,7 +14,7 @@
   {% endif %}
 {% endfor %}
 
-{% if prev_post or next_post %}
+{% if page.previous or page.next %}
   <nav class="pagination_prev_next">
     {% if prev_post %}
       <a href="{{ prev_post.url }}" class="pagination_prev_next--pager"><span class="prev_next">이전 글  &nbsp</span>{{ prev_post.title }}</a>
