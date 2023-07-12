@@ -151,7 +151,8 @@
     text-align: center;
     text-decoration: none;
     color: $muted-text-color;
-    border: 1px solid mix(#48413a, $border-color, 60%);
+    border: 1px solid mix(#48413a, $border-color, 80%);
+    border-collapse:separate; // 이웃한 테두리 선 분리
     border-radius: $border-radius;
 
     .prev_next {
