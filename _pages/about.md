@@ -1,7 +1,7 @@
 ---
 title: "Profile"
 permalink: /about/
-layout: single
+layout: single-about
 date: 2023-07-05
 ---
 ### work & experience
