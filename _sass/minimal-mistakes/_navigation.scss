@@ -151,12 +151,12 @@
     text-align: center;
     text-decoration: none;
     color: $muted-text-color;
-    border: 1px solid mix(#fff, $border-color, 60%);
+    border: 1px solid mix (#48413a, $border-color, 60%);
     border-radius: $border-radius;
 
     .prev_next {
-      font-family: $sans-serif; /*$cute;*/
-      color:#ffd861;
+      font-family: $sans-serif; // $cute;
+      color: #b4a490; // #ffd861;
     }
 
     &:hover {
