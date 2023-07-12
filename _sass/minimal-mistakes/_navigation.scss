@@ -153,7 +153,7 @@
     color: $muted-text-color;
     margin: 1px; // nav 내 태그 간 거리 조절
     border: 1px solid mix(#48413a, $border-color, 80%);
-    border-collapse:separate; // 이웃한 테두리 선 분리
+    // border-collapse:separate; // 이웃한 테두리 선 분리
     border-radius: $border-radius;
 
     .prev_next {
