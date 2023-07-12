@@ -124,7 +124,7 @@
   
   /* next/previous buttons */
   &--pager {
-    /* 아래는 원본을 주석 처리함.
+    /* 아래는 원본 주석 처리
     display: block;
     padding: 1em 2em;
     float: left;
@@ -163,15 +163,15 @@
     }
 
     &:first-child {
-      border-top-right-radius: 0;
+      border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
     }
 
     &:last-child {
-      // margin-left: -1px;
+      //margin-left: -1px;
       margin-bottom: 1em;
       border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
+      border-top-right-radius: 0;
     }
 
     /*
