@@ -57,6 +57,7 @@ minimal mistakes의 경우 기본적으로 포스팅 내 이전, 다음 버튼�
   <a href="#" class="pagination_prev_next--pager disabled-first-child">첫 번째 글입니다.</a>
   <a href="#" class="pagination_prev_next--pager disabled-last-child ">가장 최신 글입니다.</a>
 {% endif %}
+{% endraw %}
 ```
 
 간단하게 버튼의 동작 방식을 설명하자면, 작성한 포스팅의 카테고리 내 포스팅 목록를 가져와서 이전, 다음 버튼에 포스팅 제목을 출력해주며 다음 글이 없는 경우 '가장 최신 글입니다.'를, 최초 작성된 글인 경우 '첫 번째 글입니다.'를 출력해준다.
