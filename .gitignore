@@ -6,5 +6,6 @@ _site
 
 
 # tag_archive ignore
-/Users/jason/githubPages/jason-017.github.io/_pages/tag_archive.md
+_pages/tag_archive.md
 .DS_Store
+draft

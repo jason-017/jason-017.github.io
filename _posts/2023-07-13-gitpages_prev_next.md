@@ -50,9 +50,12 @@ minimal mistakes의 경우 기본적으로 포스팅 내 이전, 다음 버튼�
     {% if next_post %}
       <a href="{{ next_post.url }}" class="pagination_prev_next--pager"><span class="prev_next">다음 글  &nbsp  </span>{{ next_post.title }}</a>
     {% else %}
-      <a href="#" class="pagination_prev_next--pager disabled-last-child ">가장 최신 글입니다.</a>
+      <a href="#" class="pagination_prev_next--pager disabled-last-child ">가장 최근 글입니다.</a>
     {% endif %}
   </nav>
+{% else %}
+  <a href="#" class="pagination_prev_next--pager disabled-first-child">첫 번째 글입니다.</a>
+  <a href="#" class="pagination_prev_next--pager disabled-last-child ">가장 최근 글입니다.</a>
 {% endif %}
 {% endraw %}
 ```
