@@ -10,15 +10,13 @@ tags:
  - github pages
  - minimal mistakes
 ---
+해당 포스팅은 minimal mistakes의 이전, 다음 버튼 동작 및 디자인을 변경하는 방법에 대한 글이다. 변경을 위해서는 layout, include, scss를 간단하게 알아야 한다.
 ## layout, include, scss 간단하게 알아보기
-minimal mistakes는 다양한 레이아웃을 제공하며 `_layouts`에서 확인할 수 있다. 레이아웃은 `_includes` 아래 파일들 조합으로 구성되며, `layout` 및 `_includes`의 디자인은 `_sass` 내 파일들이 처리한다.
+minimal mistakes는 다양한 레이아웃을 제공하며 `_layouts` 디렉토리에서 확인할 수 있다. 레이아웃은 `_includes` 내 파일들의 조합으로 구성되며, `layout` 및 `_includes`의 디자인은 `_sass` 내 scss 파일들이 처리한다. 참고로 minimal mistakes에서 제공하는 스킨들의 색상 조합은 `/_sass/minimal-mistakes/skins` 디렉토리에서 볼 수 있다.
 
-이전, 다음 버튼 동작 및 디자인 변경을 위해서는 `post_pagination.html` 및 `_navigation.scss`만 수정해주면 된다. 레이아웃 구성은 single.html을 수정하여 적용했는데 각자 사용중인 레이아웃을 입맛에 맞게 수정하면 된다. 필자는 레이아웃 `footer`에 삽입되어 있던 `post_pagination.html`을 `section`에 재배치하였다.
+이전, 다음 버튼 동작 및 디자인 변경을 위해서는 `post_pagination.html` 및 `_navigation.scss`만 수정해주면 된다. 레이아웃 구성은 `single.html`을 수정하여 적용했는데 각자 사용중인 레이아웃을 입맛에 맞게 수정하면 된다. 필자는 레이아웃 `footer`에 삽입되어 있던 `post_pagination.html`을 `section`에 재배치하였다.
 
 필자의 경우 [[Github 블로그] 같은 카테고리 내에서의 이전글, 다음글 이동](https://ansohxxn.github.io/blog/prevnext/)에 작성된 `post_pagination.html`을 그대로 적용했으며 `_navigation.scss`는 살을 덧붙여 적용했다.
-
-해당 포스팅은 minimal mistakes의 이전, 다음 버튼 동작 및 디자인을 변경하는 방법에 대한 글이다. 그저 이 포스팅을 보고 간단한 동작 및 디자인 변경을 직접 시도해보기를 기대하며 작성한다.
-
 ## 이전, 다음 버튼 동작 변경
 minimal mistakes의 경우 기본적으로 포스팅 내 이전, 다음 버튼이 전체 포스팅의 시간 기준으로 동작한다. 결국 동일 카테고리 내에서 이전, 다음 버튼이 동작하도록 변경하기 위해서는 `post_pagination.html` 내용을 수정해줘야 한다. 즉, 커스터마이징을 해줘야 한다.
 
@@ -67,7 +65,6 @@ minimal mistakes의 경우 기본적으로 포스팅 내 이전, 다음 버튼�
 ![prev next recent post](/assets/prev_next_recent_post.png)
 
 ![prev next post](/assets/prev_next_post.png)
-
 ## 이전, 다음 버튼 디자인 변경
 _navigation.scss의 경우 minimal mistakes가 제공하는 기본 포멧은 유지하되 필요한 디자인 요소를 수정 및 삽입했다. 필자의 경우 _navigation.scss에 아래와 같은 커스터마이징 내용을 삽입했다.
 
