@@ -24,6 +24,7 @@ minimal mistakes는 전체 포스팅을 시간 기준으로 이전, 다음 버�
 간단하게 설명하자면, 작성한 포스팅의 카테고리 내 포스팅 목록를 가져와서 이전, 다음 버튼에 포스팅 제목을 출력해주며 다음 글이 없는 경우 '가장 최신 글입니다.'를, 최초 작성된 글인 경우 '첫 번째 글입니다.'가 출력된다.
 
 ```html
+{% raw %}
 {% assign cat = page.categories[0] %}
 {% assign cat_list = site.categories[cat] %}
 {% for post in cat_list %}
@@ -81,7 +82,7 @@ _navigation.scss에 아래와 같은 커스터마이징 내용을 삽입하면 �
     text-align: center;
     text-decoration: none;
     color: $muted-text-color;
-    border: 1px solid mix(#48413a, $border-color, 80%); // 컨셉 유지를 위한 color mix
+    border: 1.5px solid mix(#48413a, $border-color, 80%); // 컨셉 유지를 위한 color mix
     border-radius: $border-radius;
 
     .prev_next {
