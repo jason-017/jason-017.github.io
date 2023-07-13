@@ -152,7 +152,7 @@
     text-decoration: none;
     color: $muted-text-color;
     // margin: 1px; // nav 내 태그 간 거리 조절
-    border: 1px solid mix(#48413a, $border-color, 80%);
+    border: 2px solid mix(#48413a, $border-color, 80%);
     border-radius: $border-radius;
 
     .prev_next {

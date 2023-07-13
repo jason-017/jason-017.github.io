@@ -1,6 +1,6 @@
 ---
 title: "[github pages] 깃허브 블로그 이미지 넣기"
-excerpt: "github pages(깃허브 블로그) 구축"
+excerpt: "github pages 구축"
 
 categories:
  - github pages
