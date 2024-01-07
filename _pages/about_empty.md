@@ -1,6 +1,6 @@
 ---
 title: "Profile"
-permalink: /about/
+permalink: #/about/
 layout: single-about
 date: 2023-07-05
 ---

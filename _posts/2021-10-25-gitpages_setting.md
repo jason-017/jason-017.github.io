@@ -9,6 +9,7 @@ tags:
  - pages
  - github pages
  - minimal mistakes
+typora-root-url: ./..
 ---
 ## Configuration
 github pages(깃허브 블로그)는 _config.yml 파일을 통해 웹페이지 전반을 세팅할 수 있다.
