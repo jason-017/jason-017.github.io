@@ -10,14 +10,14 @@ tags:
  - github pages
  - minimal mistakes
 ---
-## Github 블로그
-Github 블로그라고 알려진 github pages라는 서비스가 존재한다. 감사하게도 github에서 무료로 웹호스팅까지 지원해주는 블로그 서비스라고 생각하면 될 것 같다.
+## Github Pages
+github에서 제공하는 무료 웹 호스팅 서비스인 github pages가 존재하는데 많은 사람들이 블로그로 해당 서비스를 많이 이용하는 것 같다. 장점은 명확하게 무료로 웹호스팅을 사용할 수 있다는 점이고, 단점으로는 결국 개인 도메인을 갖기 위해서는 비용이 발생한다는 점과 작성된 모든 파일들이 github를 통해 모두 노출된다는 점이다.
 ## github repository 생성
 github pages를 이용하기 위해서 repository name을 `username.github.io`로 만들어준다.
 
 그리고 public, private을 선택할 수 있는데 github pages를 사용하기 위해서는 public으로 해야만 한다. 단어 뜻 그대로 공개할건지, 하지 않을건지 결정하는 사항이다.<br>
 
-<img src="/assets/create-repo.png" width="50%" height="50%">
+<img src="../assets/create-repo.png" width="50%" height="50%">
 
 ### remote repository
 local 디렉토리와 repo를 연동시켜주는 작업이다. 해당 작업을 통해 local에서 작업할 수 있는 환경을 만든다.
